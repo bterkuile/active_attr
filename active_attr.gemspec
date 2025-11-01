@@ -22,14 +22,14 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = ">= 2.1.0"
 
-  gem.add_runtime_dependency "actionpack",    ">= 3.0.2", "< 8.1"
-  gem.add_runtime_dependency "activemodel",   ">= 3.0.2", "< 8.1"
-  gem.add_runtime_dependency "activesupport", ">= 3.0.2", "< 8.1"
+  gem.add_runtime_dependency "actionpack",    ">= 3.0.2" #, "< 8.1"
+  gem.add_runtime_dependency "activemodel",   ">= 3.0.2" #, "< 8.1"
+  gem.add_runtime_dependency "activesupport", ">= 3.0.2" #, "< 8.1"
 
   gem.add_development_dependency "bundler"
-  gem.add_development_dependency "factory_bot",  "< 7.0"
+  gem.add_development_dependency "factory_bot" #,  "< 7.0"
   gem.add_development_dependency "minitest"
-  gem.add_development_dependency "rake",         ">= 0.9.0", "< 13.3"
+  gem.add_development_dependency "rake",         ">= 0.9.0" #, "< 13.3"
   gem.add_development_dependency "rspec",        "~> 3.0"
   gem.add_development_dependency "tzinfo"
 end
